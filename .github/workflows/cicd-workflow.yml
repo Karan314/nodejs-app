@@ -47,6 +47,6 @@ jobs:
         uses: aws-actions/amazon-ecs-deploy-task-definition@v2
         with:
           task-definition: ${{ steps.task-def.outputs.task-definition }}
-          service: nodejs-app-service
+          service: nodejs-app-task-definition-service-3vztuvyl 
           cluster: rare-shark
           wait-for-service-stability: true    
